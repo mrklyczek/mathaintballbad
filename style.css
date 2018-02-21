@@ -1,0 +1,83 @@
+
+  
+.tablink {
+    background-color: #0D47A1;
+    color: white;
+    text-shadow: 2px 2px black;
+    float: left;
+    font-family: Luckiest Guy;
+    cursor: pointer;
+    font-size: 20px;
+    width: 20%; }
+
+.tablink:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.tabcontent {
+    color: white;
+    display: none;
+    height: 100%;
+}
+
+#Home {background-color: #42b9f4;}
+#News {background-color: #42b9f4;}
+#Resources {background-color: #42b9f4;}
+#About {background-color: #42b9f4;}
+
+
+#messenger {
+  position: relative;
+  font-family: monospace;
+  font-size: 20px;
+  white-space: nowrap;
+  text-shadow: 2px 2px rgba(#000, 0.9);
+  color: white;
+}
+
+.content {max-width: 960px; margin-left: auto; margin-right: auto;}
+.grad {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: black;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-90deg, rgba(59,103,158,1) 0, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(59,103,158,1) 0, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+  background: linear-gradient(180deg, rgba(59,103,158,1) 0, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+}
+html, body { max-width: 800px; align: center; background: #212121; height: auto; margin: auto;}
+p { font-size: 17px; text-shadow: white; font-family: Roboto Mono; color: black}
+h3 { color: #00ff00; size: 25px; text-shadow: 2px 2px #82B1FF; }
+h4 { font-size: 35px; color: black; font-family: Luckiest Guy; text-shadow:  2px 2px 5px white, 3px 3px 10px black;}
+img { max-width: 100%; }
+a { font-size: 20px; color: 212121; font-family: Luckiest Guy; margin-bottom: 3px; text-decoration: none;}
+li { font-size: 15px; font-family: Roboto Mono; color:#2196F3; border-radius: 15px; border-width: 5px border-style: inset; padding: 10px; max-width: 100%; height: auto; background-color: #E3F2FD;   }
+h6 {max-width: 100%;font-size: 60px;font-family: Luckiest Guy;font-weight: bold;color: #42b9f4; text-align: right; letter-spacing: -1px; padding-top: 10px;padding-bottom: 10px;padding-right: 10px;outline-color: black;text-shadow: 4px 4px 3px black, 0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1); }
+ 
+div.container { max-width: 100%; border-style: inset; border-color: white; border-width: 5px; padding: 5px 5px 5px 5px; margin: auto}
+
+header, footer {
+	max-width: 800px;
+	padding: 5px 5px 5px 5px;
+	color: white;
+	background-color: #0D47A1;
+	clear: left;
+	text-align: right;}
+article {
+	max-width: 800px;
+	padding: 5px;
+	overflow: hidden;
+	background-color: #82B1FF;}       
